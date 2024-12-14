@@ -112,8 +112,48 @@ main {
 }
 
 .thumbnail {
-    display: block;
-    margin-bottom: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2em;
+    background-image: url(thumbnail.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 200px;
+    border: #000;
+    border-radius: 5px;
+}
+
+.thumbnail div {
+    background-color: rgba(0, 0, 0, 0.4);
     width: 100%;
     height: auto;
+}
+
+.thumbnail div h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 2em;
+    text-shadow: 6px 6px 6px rgba(0, 0, 0, 0.5);
+}
+.thumbnail div p {
+    color: #fff;
+    text-align: center;
+    font-size: 1.2em;
+    text-shadow: 6px 6px 6px rgba(0, 0, 0, 0.5);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    width: 100%;
+    gap: 1em;
 }
