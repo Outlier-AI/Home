@@ -176,3 +176,10 @@ footer {
     margin-right: 10px;
 }
 
+.vdthumb{
+    width: 100%;
+    height: auto;
+    border: transparent;
+    border-radius: 10px;
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.5);
+}
